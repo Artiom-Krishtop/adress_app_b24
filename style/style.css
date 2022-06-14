@@ -1,0 +1,19 @@
+.container{
+    width: 40%;
+}
+
+.input-area-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+span.error-text{
+    color: red;
+    display: block;
+}
+
+span.success-text{
+    color: green;
+    display: block;
+}

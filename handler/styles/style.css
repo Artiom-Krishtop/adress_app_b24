@@ -1,0 +1,14 @@
+body{
+    background-color: #f8f9fa;
+}
+
+.dropdown-wrapper{
+    width: 100%;
+    display: flex;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.dropdown-wrapper[data-field="city"],.dropdown-wrapper[data-field="street"]{
+    display: none;
+}
